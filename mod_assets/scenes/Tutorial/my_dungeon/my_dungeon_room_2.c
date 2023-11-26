@@ -30,30 +30,6 @@ s16 my_dungeon_room_2_header00_objectList[LENGTH_MY_DUNGEON_ROOM_2_HEADER00_OBJE
 };
 
 ActorEntry my_dungeon_room_2_header00_actorList[LENGTH_MY_DUNGEON_ROOM_2_HEADER00_ACTORLIST] = {
-    // Keese
-    {
-        /* Actor ID   */ ACTOR_EN_FIREFLY,
-        /* Position   */ { -85, -27, 628 },
-        /* Rotation   */ { DEG_TO_BINANG(0.000), DEG_TO_BINANG(0.000), DEG_TO_BINANG(0.000) },
-        /* Parameters */ 0x0002
-    },
-
-    // Keese
-    {
-        /* Actor ID   */ ACTOR_EN_FIREFLY,
-        /* Position   */ { -197, -27, 617 },
-        /* Rotation   */ { DEG_TO_BINANG(0.000), DEG_TO_BINANG(0.000), DEG_TO_BINANG(0.000) },
-        /* Parameters */ 0x0002
-    },
-
-    // Keese
-    {
-        /* Actor ID   */ ACTOR_EN_FIREFLY,
-        /* Position   */ { -124, -27, 493 },
-        /* Rotation   */ { DEG_TO_BINANG(0.000), DEG_TO_BINANG(0.000), DEG_TO_BINANG(0.000) },
-        /* Parameters */ 0x0002
-    },
-
     // Treasure Chest
     {
         /* Actor ID   */ ACTOR_EN_BOX,
@@ -74,6 +50,30 @@ ActorEntry my_dungeon_room_2_header00_actorList[LENGTH_MY_DUNGEON_ROOM_2_HEADER0
     {
         /* Actor ID   */ ACTOR_EN_FIREFLY,
         /* Position   */ { -326, -27, 825 },
+        /* Rotation   */ { DEG_TO_BINANG(0.000), DEG_TO_BINANG(0.000), DEG_TO_BINANG(0.000) },
+        /* Parameters */ 0x0002
+    },
+
+    // Keese
+    {
+        /* Actor ID   */ ACTOR_EN_FIREFLY,
+        /* Position   */ { -85, -27, 628 },
+        /* Rotation   */ { DEG_TO_BINANG(0.000), DEG_TO_BINANG(0.000), DEG_TO_BINANG(0.000) },
+        /* Parameters */ 0x0002
+    },
+
+    // Keese
+    {
+        /* Actor ID   */ ACTOR_EN_FIREFLY,
+        /* Position   */ { -197, -27, 617 },
+        /* Rotation   */ { DEG_TO_BINANG(0.000), DEG_TO_BINANG(0.000), DEG_TO_BINANG(0.000) },
+        /* Parameters */ 0x0002
+    },
+
+    // Keese
+    {
+        /* Actor ID   */ ACTOR_EN_FIREFLY,
+        /* Position   */ { -124, -27, 493 },
         /* Rotation   */ { DEG_TO_BINANG(0.000), DEG_TO_BINANG(0.000), DEG_TO_BINANG(0.000) },
         /* Parameters */ 0x0002
     },

@@ -1,0 +1,1315 @@
+[33mcommit 7f87dbaa057cbe4e29bdc96f916f63848880775b[m[33m ([m[1;36mHEAD -> [m[1;32mcomp[m[33m)[m
+Author: Farorex <farorex@BrandonPC>
+Date:   Sun Nov 26 15:23:56 2023 +1100
+
+    AutoOpen PJ64
+
+[33mcommit e279ef769e4e4d94bb2e43c6cbb8a2713bd337f4[m
+Author: Farorex <farorex@BrandonPC>
+Date:   Sun Nov 26 15:05:15 2023 +1100
+
+    setup scripts
+
+[33mcommit bb8d8cbd3c14a90cbfc739cd0a193a7d9bf5f4a7[m
+Author: Farorex <farorex@BrandonPC>
+Date:   Sun Nov 26 14:45:02 2023 +1100
+
+    Initial Commit
+
+[33mcommit f2c06ce441a38a032202b9024fdfa57bb36a67c2[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Author: engineer124 <47598039+engineer124@users.noreply.github.com>
+Date:   Wed Nov 22 20:19:31 2023 +1100
+
+    Misc Cleanup (#1585)
+    
+    * misc cleanup
+    
+    * more fake matches
+    
+    * revert for sym
+
+[33mcommit 2aaa286cf85a51a46bbf1e4ad8f8a36588fd22ad[m
+Author: krm01 <krm01@users.noreply.github.com>
+Date:   Sun Nov 19 10:34:25 2023 -0800
+
+    [Doc] Actor Bg_Hidan_Fslift (Fire Temple hookshot elevator) (#1579)
+    
+    * doc bg_hidan_fslift
+    
+    * improve name for hookshot block pos function
+    
+    * comment explaining cameraSetting
+    
+    * improve comment
+    
+    * Update src/overlays/actors/ovl_Bg_Hidan_Fslift/z_bg_hidan_fslift.c
+    
+    Co-authored-by: Dragorn421 <Dragorn421@users.noreply.github.com>
+    
+    * rename to Idle
+    
+    ---------
+    
+    Co-authored-by: Dragorn421 <Dragorn421@users.noreply.github.com>
+
+[33mcommit aef0335681545718299ba3c0c0d63eddef840a11[m
+Author: engineer124 <47598039+engineer124@users.noreply.github.com>
+Date:   Mon Nov 20 03:17:31 2023 +1100
+
+    Struct Returns (#1574)
+    
+    * change args
+    
+    * PR Review
+    
+    * format
+
+[33mcommit 3d1ee33d7b7799cd84c3bbe1fc8d4f69ec3f58d9[m
+Author: engineer124 <47598039+engineer124@users.noreply.github.com>
+Date:   Mon Nov 20 03:11:59 2023 +1100
+
+    Document Actor "OfferTalk" (#1567)
+    
+    * OfferTalk
+    
+    * rm comment
+    
+    * exch to offer in comment
+    
+    * reword again
+    
+    * Partial PR Review
+    
+    * Actor_AcknowledgeTalking
+    
+    * Actor_TalkOfferAccepted
+    
+    * PR Review
+    
+    * rm part of comment
+    
+    * rm comment
+
+[33mcommit c11ce9c99473be1ff1eba565e7eae920612586c3[m
+Author: fig02 <fig02srl@gmail.com>
+Date:   Sun Nov 19 09:38:49 2023 -0500
+
+    Player Docs: Some Item Action function names (#1575)
+    
+    * progress
+    
+    * unname shield upper action
+    
+    * add more to sword comment
+
+[33mcommit 68bdbf77593e709e3ac60525143e93a6da262ff3[m
+Author: hiisuya <112015628+hiisuya@users.noreply.github.com>
+Date:   Sun Nov 19 04:11:52 2023 -0600
+
+    Doc Actor: En_Brob (Jabu Jabu Wobble Flesh Block) (#1581)
+    
+    * brob function naming
+    
+    * modified brob header file
+    
+    * renamed skel, collision, and anims
+    
+    * named limbs and dls
+    
+    * renamed shock function
+    
+    * ran formatter
+    
+    * doc modifications
+    
+    * Update assets/xml/objects/object_brob.xml
+    
+    Co-authored-by: Dragorn421 <Dragorn421@users.noreply.github.com>
+    
+    ---------
+    
+    Co-authored-by: Dragorn421 <Dragorn421@users.noreply.github.com>
+
+[33mcommit 81a3c3da32033c22fa59f0b3065a302eaac02a04[m
+Author: engineer124 <47598039+engineer124@users.noreply.github.com>
+Date:   Sun Nov 19 12:17:32 2023 +1100
+
+    More Camera Flags (#1453)
+    
+    * Generic Camera Flags
+    
+    * New flag names
+    
+    * Add flags to functions
+    
+    * Finish flag docs
+    
+    * More docs
+    
+    * More cleanup
+    
+    * More clarity
+    
+    * Better shrinkwindow flag docs
+    
+    * Improve name
+    
+    * CAM_INTERFACE_FLAGS
+    
+    * Better approach to edge cases
+    
+    * Change ordering for consistency
+    
+    * Oops
+    
+    * Add masks to macro
+    
+    * PR/Discord discussions
+    
+    * cleanup comment
+    
+    * Oops
+    
+    * PR Suggestions
+    
+    * More PR Feedback
+    
+    * More PR Suggestions
+    
+    * More Camera Flags
+    
+    * PR Suggestions
+    
+    * More flag style change
+    
+    * Small cleanup
+    
+    * More flag docs
+    
+    * Another flag
+    
+    * Fix flags
+    
+    * sync names with other PRs
+    
+    * more fixes
+    
+    * fix comments
+    
+    * update with hud visibility mode docs
+    
+    * missed one
+    
+    * fix comments
+    
+    * Roman PR Suggestions
+    
+    * interfaceField
+    
+    * small fix
+    
+    * letterbox cleanup
+    
+    * cleanup
+    
+    * fix macro arg
+    
+    * fix func declaration
+    
+    * many more docs
+    
+    * better docs?
+    
+    * missed some
+    
+    * oops, revert
+    
+    * add flags to name
+    
+    * cleanup
+    
+    * flag
+    
+    * double signal
+    
+    * simplify cam func name
+    
+    * more suggestions
+    
+    * PR Suggestion
+
+[33mcommit d1df4e4c7ebe5c5ed6a70a1072e0670df3baa4d0[m
+Author: krm01 <krm01@users.noreply.github.com>
+Date:   Sat Nov 18 09:30:36 2023 -0800
+
+    bombowlman typo (#1582)
+
+[33mcommit b4edc05c69004c6c3b0e1143fa0425c36a066951[m
+Author: Roman971 <32455037+Roman971@users.noreply.github.com>
+Date:   Tue Nov 14 21:20:46 2023 +0100
+
+    Fix and simplify progress.py to account for src/audio/ files in 'code' (#1578)
+
+[33mcommit 0a48348f8de2b39da7bc850ed065d71808ef047f[m
+Author: krm01 <krm01@users.noreply.github.com>
+Date:   Tue Nov 14 11:20:23 2023 -0800
+
+    doc for menkuri_eye (#1580)
+
+[33mcommit 4c75260097135edb171501942e451474fce66c50[m
+Author: Dragorn421 <Dragorn421@users.noreply.github.com>
+Date:   Sun Nov 12 22:59:52 2023 +0100
+
+    Fix misc 21 (#1573)
+    
+    * Make `sNew` in (unused) `code_800FC620.c` a string
+    
+    It is passed as a filename to `__osMallocDebug` so should be a nul-terminated string, not a char[3] missing an explicit \0
+    
+    * Fix gcc warning in `JpegDecoder_ParseNextSymbol` about SLL on negative value
+    
+    -1U is an unsigned value, aka 0xFFFFFFFF
+    I keep -1 because it seems that's what a jpeg standard has too
+    
+    References:
+    https://stackoverflow.com/questions/40508958/shifting-a-negative-signed-value-is-undefined
+    https://www.w3.org/Graphics/JPEG/itu-t81.pdf (page 105, figure F.12)
+    
+    * Small cleanup
+    
+    * Fix few mistakes (thanks gcc warnings)
+    
+    * Add `@bug` in file select settings draw code, using the wrong array
+    
+    * format
+    
+    * format main
+    
+    * rename arg for a happy formatter
+    
+    * Move important function call out of a printf
+
+[33mcommit dc323052c36959e7221a927c094053e279334f41[m
+Author: Javarooster <javarooster93@gmail.com>
+Date:   Sat Nov 11 17:01:55 2023 -0600
+
+    Changed gLinkChildSlinghotStringDL to gLinkChildSlingshotStringDL (#1576)
+
+[33mcommit 836adb83ea1ea20fa8f53f83ee5cda304b94ab29[m
+Author: fig02 <fig02srl@gmail.com>
+Date:   Tue Nov 7 14:11:59 2023 -0500
+
+    Rename "ITEM_LAST_USED"  (#1572)
+    
+    * rename
+    
+    * format
+    
+    * remove formatter changes
+    
+    * change model group comments
+
+[33mcommit 042a5c553020404a3e49834614327917c34334a8[m
+Author: fig02 <fig02srl@gmail.com>
+Date:   Sat Nov 4 02:59:12 2023 -0400
+
+    rename to upper action (#1570)
+
+[33mcommit 8718a5c8c0c97cc93f4d11ee4a3a7cb4ddbdcacc[m
+Author: Dragorn421 <Dragorn421@users.noreply.github.com>
+Date:   Mon Oct 30 15:19:16 2023 +0100
+
+    Remove `(ActorFunc)` casts in initvars (#1571)
+    
+    * Remove `(ActorFunc)` casts in initvars, use `/**/` trick for format
+    
+    Achieved by using the following regex:
+    
+    (ActorInit.*)(\n\s+)(.*)(\n\s+)(.*)(\n\s+)(.*)(\n\s+)(.*)(\n\s+)(.*)(\n\s+)(?:\(ActorFunc\))?(.*)(\n\s+)(?:\(ActorFunc\))?(.*)(\n\s+)(?:\(ActorFunc\))?(.*)(\n\s+)(?:\(ActorFunc\))?(.*\n\};)
+    
+    replaced with
+    
+    $1$2/**/ $3$4/**/ $5$6/**/ $7$8/**/ $9$10/**/ $11$12/**/ $13$14/**/ $15$16/**/ $17$18/**/ $19
+    
+    plus a change from /**/ to #if 0 #endif in docs/
+    
+    * Manual fixes
+
+[33mcommit 4908b8b37c2b9e84722fd3a57c3d1766adef33f8[m
+Author: fig02 <fig02srl@gmail.com>
+Date:   Sat Oct 28 07:46:24 2023 -0400
+
+    Player Docs: public facing csAction things (#1561)
+    
+    * name public csAction functions
+    
+    * format
+    
+    * adjust function comment
+    
+    * format
+
+[33mcommit 3475651701f991b636a74e0254ef1b9682fa1126[m
+Author: Tharo <17233964+Thar0@users.noreply.github.com>
+Date:   Fri Oct 27 15:06:44 2023 +0100
+
+    libc cleanup (#1568)
+    
+    * libc cleanup
+    
+    * Suggested changes, small alloca tweak
+    
+    * Remove printf include
+
+[33mcommit 4e55168eaa4562ab131ea314a5fe4c22b591d827[m
+Author: Dragorn421 <Dragorn421@users.noreply.github.com>
+Date:   Wed Oct 25 03:36:10 2023 +0200
+
+    Update ZAPD (#1569)
+    
+    * git subrepo pull --force tools/ZAPD
+    
+    subrepo:
+      subdir:   "tools/ZAPD"
+      merged:   "094e79734"
+    upstream:
+      origin:   "https://github.com/zeldaret/ZAPD.git"
+      branch:   "master"
+      commit:   "094e79734"
+    git-subrepo:
+      version:  "0.4.6"
+      origin:   "https://github.com/ingydotnet/git-subrepo"
+      commit:   "110b9eb"
+    
+    * Add EnumData.xml where some names are now externalized
+    
+    * Remove legacy typedefs for zapd, no longer needed!
+
+[33mcommit 503f6d86d5fca5bd234640ef9de597d413cb91f5[m
+Author: Tharo <17233964+Thar0@users.noreply.github.com>
+Date:   Fri Oct 20 18:14:52 2023 +0100
+
+    Track most header dependencies for `include/tables` headers (#1566)
+    
+    * Makefile automatically rebuild source files including headers from include/tables
+    
+    * Fix typo, make z_actor.c also depend on actor_table.h
+    
+    * Add message data dependencies for z_message_PAL, adjust comments
+
+[33mcommit a20163c6abf7700c432c711b03532cc4ad8d198a[m
+Author: Tharo <17233964+Thar0@users.noreply.github.com>
+Date:   Tue Oct 17 20:16:31 2023 +0100
+
+    Use `long` over `int` for s32/u32 types (#1546)
+    
+    * long s32
+    
+    * Suggested changes
+
+[33mcommit b3486b57ef41a284a366eb40ca07bf82bf4750d6[m
+Author: cadmic <cadmic24@gmail.com>
+Date:   Sat Oct 7 16:42:28 2023 -0700
+
+    Rename Math3D_CylOutsideCyl and Math3D_CylOutsideCylDist (#1557)
+    
+    * Rename Math3D_CylOutsideCyl and Math3D_CylOutsideCylDist
+    
+    * radix -> radii
+    
+    Co-authored-by: Tharo <17233964+Thar0@users.noreply.github.com>
+    
+    * Make Math3D sphere/cylinder collision check function names more consistent
+    
+    ---------
+    
+    Co-authored-by: Tharo <17233964+Thar0@users.noreply.github.com>
+
+[33mcommit 181b4383937a18c95c4772c45a8f33b1b783fa1d[m
+Author: fig02 <fig02srl@gmail.com>
+Date:   Sat Oct 7 19:25:45 2023 -0400
+
+    Player Docs: Propose Named Unions For Shared Variables (#1560)
+    
+    * make unions
+    
+    * format
+    
+    * adjust comment on halt thing
+
+[33mcommit ebc6ebf232de3250a5a365690a5644d35955bf71[m
+Author: fig02 <fig02srl@gmail.com>
+Date:   Thu Oct 5 10:22:40 2023 -0400
+
+    Player Docs: Initial AnimSfx stuff (#1556)
+    
+    * initial animsfx docs
+    
+    * review
+    
+    * extra space
+
+[33mcommit c39578f971c37182147ea34feb99d6c1be7711f4[m
+Author: engineer124 <47598039+engineer124@users.noreply.github.com>
+Date:   Fri Oct 6 01:04:41 2023 +1100
+
+    Introduce Player CueIds (#1559)
+    
+    * cueId
+    
+    * cleanup
+
+[33mcommit c5e4357127fa9432213c1c758c020691e98a1171[m
+Author: fig02 <fig02srl@gmail.com>
+Date:   Wed Sep 27 11:02:21 2023 -0400
+
+    initial action-change-list docs (#1540)
+
+[33mcommit 2cb4ff4fd3d36157dd03d68321dbeb99ba5c6845[m
+Author: fig02 <fig02srl@gmail.com>
+Date:   Tue Sep 26 12:48:41 2023 -0400
+
+    Player Docs: csMode -> csAction (#1547)
+    
+    * csmode -> cs action
+    
+    * format
+
+[33mcommit 092f6026384b193df93a9836548bc788dec7c81c[m
+Author: Tharo <17233964+Thar0@users.noreply.github.com>
+Date:   Tue Sep 26 13:40:55 2023 +0100
+
+    Fix gamestate overlay table size declaration (#1555)
+
+[33mcommit 4d7558df0d8fe489870e8619e0b3672104c04d4f[m
+Author: Derek Hensley <hensley.derek58@gmail.com>
+Date:   Mon Sep 25 03:29:15 2023 -0700
+
+    Speedmeter Small cleanup (#1554)
+    
+    * Small cleanup
+    
+    * x
+
+[33mcommit 873c55faad48a67f7544be713cc115e2b858a4e8[m
+Author: engineer124 <47598039+engineer124@users.noreply.github.com>
+Date:   Mon Sep 25 01:51:03 2023 +1000
+
+    Improve Matches: Part 4 (#1545)
+    
+    * more improvements
+    
+    * small cleanup
+    
+    * PR Review
+
+[33mcommit fefeb369dd19172d5eb419f8c8373cfb10d59d19[m
+Author: Dragorn421 <Dragorn421@users.noreply.github.com>
+Date:   Fri Sep 22 20:48:09 2023 +0200
+
+    Name the main pause state and add placeholder enum for main (sub)states (#1551)
+
+[33mcommit 4842f62833eda04e3883c9ddb4cff133cea27cb0[m
+Author: Nuss <67802335+hack-nuss@users.noreply.github.com>
+Date:   Fri Sep 22 18:13:26 2023 +0200
+
+    wrong path (#1548)
+
+[33mcommit c73e2ab72618b01c96f63868a8f1001e86eaa461[m
+Author: Dragorn421 <Dragorn421@users.noreply.github.com>
+Date:   Fri Sep 22 17:50:44 2023 +0200
+
+    Make macros for age reqs data and access (#1549)
+    
+    * Make macros for age reqs data and access
+    
+    * line breaks for readability
+
+[33mcommit dc010abf7a3173a18289161aa275204e38b262fb[m
+Author: Derek Hensley <hensley.derek58@gmail.com>
+Date:   Fri Sep 22 08:40:19 2023 -0700
+
+    Rename master to main (#1536)
+    
+    * Jenkinsfile master -> main
+    
+    * Missed some instances of master
+
+[33mcommit d7f6961918f6ad9d53fb6cf465aee2db0845d0ea[m
+Author: engineer124 <47598039+engineer124@users.noreply.github.com>
+Date:   Thu Sep 21 02:41:47 2023 +1000
+
+    Improve Matches: Part 3 (#1544)
+    
+    * improve matchings
+    
+    * spacing
+
+[33mcommit 72334df180964f28ea911728011f8b386512ed1f[m
+Author: engineer124 <47598039+engineer124@users.noreply.github.com>
+Date:   Thu Sep 21 00:54:44 2023 +1000
+
+    improve matching (#1543)
+
+[33mcommit a8d670fe5c774a7259fb88045baaf878cfcff6af[m
+Author: engineer124 <47598039+engineer124@users.noreply.github.com>
+Date:   Thu Sep 21 00:41:03 2023 +1000
+
+    improve matches (#1542)
+
+[33mcommit 107c0288cc46e378c67dc4ae2e39cfd2e5fcbc25[m
+Author: Billy <1184136+philtyl@users.noreply.github.com>
+Date:   Wed Sep 20 01:41:42 2023 +0000
+
+    Dekunut Salesman Docs (#1493)
+    
+    * Dekunut Salesman Docs
+    
+    * Update src/overlays/actors/ovl_En_Dns/z_en_dns.c
+    
+    Remove extra param from debug logging
+    
+    Co-authored-by: Dragorn421 <Dragorn421@users.noreply.github.com>
+    
+    * * Full Deku/Potion name usage
+    * Dialog -> CanBuy
+    * Revert debug logging symbols
+    * Proper declaration spacing
+    * Fix en_shopnuts header doc
+    * Biz -> Business
+    
+    * Fix missed deku prefix's
+    
+    * Synchronize CanBuy sticks and nuts
+    
+    * Fix enum naming
+    
+    * Clarified CanBuy success values
+    
+    * anon review
+    
+    * fig review
+    
+    * macro changes
+    
+    * fix macro usage
+    
+    ---------
+    
+    Co-authored-by: Dragorn421 <Dragorn421@users.noreply.github.com>
+    Co-authored-by: fig02 <fig02srl@gmail.com>
+
+[33mcommit da3f4718f07bdf5af91ebf3dc5da190245ace2f9[m
+Author: fig02 <fig02srl@gmail.com>
+Date:   Tue Sep 19 21:37:03 2023 -0400
+
+    Player docs: Control Stick Input and Movement (#1539)
+    
+    * document input stuff and movement speed+yaw
+    
+    * curve -> curved, and other cleanups
+    
+    * fix + format
+    
+    * function declaration
+    
+    * name arguments
+    
+    * add mode descriptions
+    
+    * fix typos
+    
+    * move comment down
+
+[33mcommit 185c9cbf1aed3190f335fe6745cd220d2e0b2b62[m
+Author: Dragorn421 <Dragorn421@users.noreply.github.com>
+Date:   Tue Sep 19 21:01:00 2023 +0200
+
+    Run formatter (#1541)
+
+[33mcommit 57ce0cf8d9827e1c88013a318f35e9677167d900[m
+Author: Dragorn421 <Dragorn421@users.noreply.github.com>
+Date:   Tue Sep 19 20:10:12 2023 +0200
+
+    Doc/Cleanup pass on object handling (#1227)
+    
+    * `Object_InitBank` -> `Object_InitContext`
+    
+    * Add and use `OBJECT_SPACE_SIZE_BASE`
+    
+    * Remove `OBJECT_EXCHANGE_BANK_MAX` -> use `ARRAY_COUNT()` instead
+    
+    * "object status" -> "object load entry"
+    
+    * Misc. cleanup/renames
+    
+    * Partial docs and way too much batch renaming and cleanup for a single commit
+    
+    * ctrl shift h
+    
+    * format
+    
+    * format clang-11.1
+    
+    * fix regressions
+    
+    * Improve a `@bug` comment
+    
+    * Move `OBJECT_SPACE_SIZE_BASE` from header to near `Object_InitContext`
+    
+    * "objectID" -> "objectId"
+    
+    * Revert iterator index to `i` in `Actor_KillActorsWithUnloadedObject`
+    
+    * "object load entry index" -> "object entry"
+    
+    * `Object_UpdateLoadEntries` -> `Object_UpdateEntries`
+    
+    * Run format.sh
+    
+    * "object entry" -> "object slot" (except internal usage)
+    
+    * Proper `Object_SpawnPersistent` doc
+    
+    Co-authored-by: fig02 <fig02srl@gmail.com>
+    
+    * fixup one comment "object bank index" -> "object slot"
+    
+    * Amend `Object_SpawnPersistent` comment to mention running out of free slots
+    
+    * `Actor_KillActorsWithUnloadedObject` -> `Actor_KillAllWithMissingObject`
+    
+    * Remove useless mention of what uses `Object_SpawnPersistent`
+    
+    * Fix mistake on `Object_SpawnPersistent` doing sync dma, not async
+    
+    * run formatter
+    
+    * `Object_InitContext` -> `Object_Init`
+    
+    * `waitObjectSlot` -> `requiredObjectSlot`
+    
+    * `Object_Init` -> `func_80097DD8`
+    
+    * one objectIndex -> objectSlot
+    
+    * Remove `OBJECT_SPACE_SIZE_BASE`
+    
+    * light fix on the merge (rm OBJECT_EXCHANGE_BANK_MAX)
+    
+    * `func_80097DD8` -> `Object_InitContext`
+    
+    ---------
+    
+    Co-authored-by: fig02 <fig02srl@gmail.com>
+
+[33mcommit 83a13a64c710e8a0e418ec469c2550ebfb9ca345[m
+Author: fig02 <fig02srl@gmail.com>
+Date:   Tue Sep 19 13:23:56 2023 -0400
+
+    Document niche magic spell bug (#1526)
+    
+    * document magic spell bug
+    
+    * Update src/overlays/actors/ovl_player_actor/z_player.c
+    
+    Co-authored-by: Dragorn421 <Dragorn421@users.noreply.github.com>
+    
+    * adjust comment
+    
+    * fix renamed func and reformat
+    
+    ---------
+    
+    Co-authored-by: Dragorn421 <Dragorn421@users.noreply.github.com>
+
+[33mcommit 5170f2de1791a8c6c8f50ce636e3b2d5530f18aa[m
+Author: fig02 <fig02srl@gmail.com>
+Date:   Mon Sep 18 00:08:43 2023 -0400
+
+    Start Player Item Docs (#1523)
+    
+    * item docs
+    
+    * format
+    
+    * loop change
+    
+    * some of engineers review
+    
+    * shorten comment (thanks formatter)
+    
+    * ProcessItemButtons
+    
+    * true/false
+
+[33mcommit 6c3e8d63cfd15c5835c11c6b1559ccd3251ac3d5[m
+Author: fig02 <fig02srl@gmail.com>
+Date:   Sun Sep 17 19:56:41 2023 -0400
+
+    Name player's generic `actionVar`s (#1538)
+    
+    * name player generic vars
+    
+    * format
+
+[33mcommit ba07f21e9db3d5dd14a2e2155842a5cd8663bad8[m
+Author: fig02 <fig02srl@gmail.com>
+Date:   Sat Sep 16 22:25:56 2023 -0400
+
+    Change player struct variable spacing (#1537)
+    
+    * change spacing
+    
+    * missed something
+    
+    * missed another
+    
+    * and another lol
+
+[33mcommit 9b207c356a66aec59815cbbd557f40d48d7cccdd[m
+Author: Tharo <17233964+Thar0@users.noreply.github.com>
+Date:   Sat Sep 16 22:16:58 2023 +0100
+
+    Document Framebuffer Filters, VisCvg and VisZbuf (#1534)
+    
+    * Document z_viscvg and z_viszbuf
+    
+    Co-authored-by: Tharo <17233964+Thar0@users.noreply.github.com>
+    Co-authored-by: Dragorn421 <Dragorn421@users.noreply.github.com>
+    
+    * Few more notes
+    
+    * Some more notes
+    
+    Co-authored-by: Tharo <17233964+Thar0@users.noreply.github.com>
+    
+    * Review
+    
+    * Americanisation, FB RGB
+    
+    * Oops
+    
+    * Review
+    
+    * Minor documentation modifications
+    
+    * Header, base struct and enums
+    
+    Co-authored-by: Tharo <17233964+Thar0@users.noreply.github.com>
+    
+    * functions.h fix
+    
+    * Suggested changes, further adjustments to file doc comments
+    
+    * Further suggested changes, standardize capitalization of gfxP
+    
+    * g
+    
+    ---------
+    
+    Co-authored-by: Elliptic Ellipsis <elliptic.ellipsis@gmail.com>
+    Co-authored-by: Dragorn421 <Dragorn421@users.noreply.github.com>
+
+[33mcommit 239a172114b891fffe7af21777dc5313f0de9441[m
+Author: Yanis42 <35189056+Yanis42@users.noreply.github.com>
+Date:   Fri Sep 15 00:41:10 2023 +0200
+
+    remove the extra ``CS_CMD_STOP`` (#1535)
+
+[33mcommit 823e47a0f8e9fb9fab89bc61b57f45488ff6debe[m
+Author: fig02 <fig02srl@gmail.com>
+Date:   Wed Sep 13 20:34:07 2023 -0400
+
+    Player Docs: Name actionFunc (#1531)
+    
+    * progress, going to merge master
+    
+    * merge master
+    
+    * finish renmaing functions
+    
+    * reorder declarations
+
+[33mcommit 7145bc346d7538a4f9acf200894c906b41104690[m
+Author: fig02 <fig02srl@gmail.com>
+Date:   Wed Sep 13 20:21:54 2023 -0400
+
+    Document Camera Special9 (door) angle bug (#1525)
+    
+    * document special9 angle bug
+    
+    * Update src/code/z_camera.c
+    
+    Co-authored-by: Dragorn421 <Dragorn421@users.noreply.github.com>
+    
+    ---------
+    
+    Co-authored-by: Dragorn421 <Dragorn421@users.noreply.github.com>
+
+[33mcommit 7235af2249843fb68740111b70089bad827a4730[m
+Author: Tharo <17233964+Thar0@users.noreply.github.com>
+Date:   Sat Sep 9 15:24:52 2023 +0100
+
+    Apply noreturn attribute where applicable (#1532)
+
+[33mcommit bedf07d5412f52cc05165b2d081578924cdd489d[m
+Author: fig02 <fig02srl@gmail.com>
+Date:   Wed Sep 6 13:15:07 2023 -0400
+
+    Document Player's bgcheck routine (`func_80847BA0`) (#1503)
+    
+    * progress
+    
+    * progress
+    
+    * progress
+    
+    * done for now
+    
+    * floor pitch comments
+    
+    * sYDistToFloor
+    
+    * add function comment
+    
+    * sFloorShapePitch
+    
+    * typo in header
+
+[33mcommit 527c3ba7045ba21c99645902a4796f2596fba313[m
+Author: Dragorn421 <Dragorn421@users.noreply.github.com>
+Date:   Wed Sep 6 18:43:50 2023 +0200
+
+    Player doc: anim wrappers (#1437)
+    
+    * Player doc: anim wrappers
+    
+    * revert name callbacks in `D_80854AA4`
+    
+    * Adj -> Adjusted
+    
+    * format
+    
+    * Add `PLAYER_ANIM_ADJUSTED_SPEED`
+    
+    * format
+    
+    * Add a comment on `Player_AnimReplaceApplyFlags`
+    
+    ---------
+    
+    Co-authored-by: fig02 <fig02srl@gmail.com>
+
+[33mcommit d314cfe92395172612676a8ad007a0639c8d5666[m
+Author: Dragorn421 <Dragorn421@users.noreply.github.com>
+Date:   Wed Sep 6 17:14:15 2023 +0200
+
+    Document pause states (excluding gameover) (#1483)
+    
+    * Document PauseContext.state
+    
+    * Very light docs surrounding pause states
+    
+    * PAUSE_STATE_UNPAUSE -> PAUSE_STATE_RESUME_GAMEPLAY and comment on purpose in the enum
+    
+    * PAUSE_STATE_MAIN -> PAUSE_STATE_6
+    
+    * format
+    
+    * Player_InitDrawPause -> Player_InitPauseDrawData
+
+[33mcommit 475b8a1ebabe3246dc9d9b5b0b230e403d7bbb4c[m
+Author: blackgamma7 <blackgamma7@gmail.com>
+Date:   Wed Sep 6 10:58:17 2023 -0400
+
+    z_fishing partially documented (#1424)
+    
+    * Document z_Fishing
+    
+    Document code and data RE: Fishing minigame.
+    
+    * More z_fishing.c progress
+    
+    Id's more values, added flag for "High score" entries
+    
+    * moved and renamed Fishing flags
+    
+    Flags moved outside z_fishing.c - ending sequence checks for "hat stolen" flag.
+    
+    * more fishing.c Id'ing
+    
+    added more id's and clarification.
+    
+    * Update z_fishing.h
+    
+    clarified not about fish weight.
+    
+    * more z_fishing.c documenting
+    
+    missed a bitfeiled in the fishing "highScores" that kept track of your number of fishing trips
+    
+    * Update z64save.h
+    
+    a #define got lost for the "fishing games played" increment
+    
+    * z_fishing: a few formatting and naming changes based on feedback
+    
+    - removed comments summing textboxes as it was deemed redundant
+    - tried to unify fish measurment as "length"
+    - clarified a few vars based on name
+    - formatted single-line comments to have one space.
+    
+    * Update z_fishing.c
+    
+    ran format.py and fixle.sh
+    
+    * Update z_fishing.c
+    
+    changed code around a few bools that was still matching.
+    
+    * `z_en_Fishing`: changes from feedback, id'd rotate phase fields.
+    
+    * Update z_fishing.c
+    
+    merge fix
+    
+    * `z_fishing`: More doc'ing.
+    
+    * `z_fishing`: changes based on feedback
+    
+    * `z_fishing`: fixed typo
+    
+    * `z_fishing`: merge with master
+    
+    * Update z_fishing.c
+    
+    sSinkingLureLocationPos was too redundant
+    
+    * Merge fix, added more comments, #defines, id's
+    
+    * Update z_fishing.c
+    
+    adding EN_FISH_PARAM may have led to mismatch.
+    
+    * `z_fishing`: fixed compare mismatch
+    
+    * Update z64save.h
+    
+    fix typo
+    
+    * Update z_fishing.c
+    
+    a few more id's
+
+[33mcommit 8913c4fa0d2cec19db6e8b4d8598125977243c5d[m
+Author: Tharo <17233964+Thar0@users.noreply.github.com>
+Date:   Tue Aug 29 16:30:00 2023 +0100
+
+    Fix and tidy up missing_gcc_functions.c (#1529)
+
+[33mcommit dadd1f84934f49cfc8fe881f8c49ead6e48b8b76[m
+Author: Tharo <17233964+Thar0@users.noreply.github.com>
+Date:   Tue Aug 29 16:25:12 2023 +0100
+
+    Add missing DWARF 5 debug sections and .pdr to linker script (#1530)
+
+[33mcommit 2875ab4fcf5c5f81d76353d1ee0024c9ea8d0b23[m
+Author: fig02 <fig02srl@gmail.com>
+Date:   Mon Aug 28 18:48:52 2023 -0400
+
+    Emulator related changes in the makefile (#1528)
+    
+    * emu related changes to make file
+    
+    * spaces
+    
+    * add error
+    
+    * remove unwanted file (thanks ares)
+
+[33mcommit b2787995f55065fbb427bcfa0c6f4ec9d44cbb87[m
+Author: blackgamma7 <blackgamma7@gmail.com>
+Date:   Wed Aug 23 16:50:09 2023 -0400
+
+    `z_en_syateki_niw` doc (#1449)
+    
+    * SyatekiNiw doc
+    
+    started id'ing funcs and fields for SyatekiNiw
+    
+    * `z_en_syateki_niw` doc
+    
+    * `z_en_syateki_niw1: (almost) all fields/funcs doc'd
+    
+    * `z_en_syateki_niw` update
+    
+    changes based on feedback.
+    
+    * `z_en_syateki_niw`: limb fields renamed
+    
+    * Update z_en_syateki_niw.h
+    
+    renamed fields as suggested.
+    
+    * Update src/overlays/actors/ovl_En_Syateki_Niw/z_en_syateki_niw.h
+    
+    fix typo in comment.
+    
+    Co-authored-by: Dragorn421 <Dragorn421@users.noreply.github.com>
+    
+    * Update z_en_bom_bowl_man.c
+    
+    add minigame enum to actor spawn param
+    
+    * `z_en_syateki_niw`: updated based on feedback
+    
+    renamed local vars for claritey, added more comments to struct.
+    
+    * Update z_en_syateki_niw.c
+    
+    renamed function and var based on feedback
+    
+    ---------
+    
+    Co-authored-by: Dragorn421 <Dragorn421@users.noreply.github.com>
+
+[33mcommit fc3e0f080bccb88112e512f5d20bbe32f4661d71[m
+Author: Billy <1184136+philtyl@users.noreply.github.com>
+Date:   Sat Aug 19 15:34:48 2023 +0000
+
+    En_Cow Doc (#1492)
+    
+    * Add Documentation for Cows
+    
+    * Better naming for cow unlock flag
+    
+    * Update with MM solutions and PR suggestions
+    
+    * Readable conditions
+    
+    * Decimal cycle counter
+    
+    * Replace params with cow type
+    
+    * Clean up type usage and function names
+    
+    * Clean up cylinders
+    
+    * Fix collider enum
+    
+    * Rename EnCow rear collider
+    
+    * Fix spacing
+    
+    * PR fixes:
+    COLL -> COLLIDER enum
+    static prefix
+    Missed MM function naming
+    Specific actor flags naming
+    
+    * Rename of healRot and breathTimer
+    
+    * Document Epona's song reset behavior
+    
+    * anon review
+    
+    * fig review
+    
+    * whitespace
+    
+    * rework milk interaction stuff
+    
+    * changes to milk comment
+    
+    ---------
+    
+    Co-authored-by: fig02 <fig02srl@gmail.com>
+
+[33mcommit d6207b17c2c6dd51d6136a86bee3deee66f45734[m
+Author: Dragorn421 <Dragorn421@users.noreply.github.com>
+Date:   Wed Aug 16 02:28:12 2023 +0200
+
+    Doc/cleanup pass on effects 1 (#1421)
+    
+    * Some doc/cleanup on `Effect_Ss_Fhg_Flash`
+    
+    * Some doc/cleanup on `Effect_Ss_Blast`
+    
+    * 11DA0 -> Billboard
+    
+    * doc three lerp funcs in effectss
+    
+    * Some doc/cleanup on `Effect_Ss_Bomb`
+    
+    * `rTexIdx` -> `rTexIndex`
+    
+    * lifespan
+    
+    * `LIFESPAN` -> `EFFSSBOMB_LIFESPAN`
+    
+    * --parentheses
+    
+    * Add todo about "having zapd forward declare static variables"
+    
+    * try rework comments on effects scale
+    
+    * lightning -> "a ball of electrical arcs" ?
+
+[33mcommit 4dea0bfb26951a8a07ee4cbb9642d8bcd52ba71a[m
+Author: Dragorn421 <Dragorn421@users.noreply.github.com>
+Date:   Tue Aug 15 22:23:53 2023 +0200
+
+    Placeholder names for skelanime moveflags (#1489)
+    
+    * Add defines for all used animflags
+    
+    * Use named constants (and add two) for players `func_80832F54` flags
+    
+    * note which flags are player-only
+    
+    * Attempt at documenting but too FeelsUnkMan again
+    
+    * forgot something
+    
+    * ANIM_FLAG_PLAYER_0 -> ANIM_FLAG_0 and amend comment from "player-only" to "no effect outside player"
+    
+    * 1<<n flags
+
+[33mcommit 9e9d62cf710d6be36094d9d44e73996ea368b84b[m
+Author: Dragorn421 <Dragorn421@users.noreply.github.com>
+Date:   Tue Aug 15 22:12:50 2023 +0200
+
+    Cleanup/add bgcheck macros (#1478)
+    
+    * Cleanup/add bgcheck macros
+    
+    * vIA -> vI
+    
+    * parentheses around bit&
+    
+    * achivement get: formatter contrarian
+    
+    * COLPOLY_VTX_FLAGS -> COLPOLY_VTX_FLAGS_MASKED
+    
+    * & before << in WATERBOX_PROPERTIES packing macro
+    
+    * & before << in SURFACETYPE* packing macro and fix parentheses
+
+[33mcommit ccae1f73879e25c1a771542272e6d18442478106[m
+Author: Dragorn421 <Dragorn421@users.noreply.github.com>
+Date:   Tue Aug 15 18:21:19 2023 +0200
+
+    Split z64.h: move various things, state, sram, gfx, jpeg, prerender, speedmeter (#1487)
+    
+    * Split z64.h more
+    
+    * fix speedmeter.h (expect this kind of issue resolution to pop up eventually)
+    
+    * fix z64object.h
+    
+    * fix z64state.h
+    
+    * fix (probably only partially) z64play.h
+    
+    * fix fix speedmeter.h :)
+    
+    * revert making a play header (sadge), add/split transition & transition_instances
+    
+    * move stuff to cutscene, interface
+    
+    * Move `TransitionCircle%` enums to `z64transition_instances.h`
+    
+    * z64state.h -> z64game.h with a "this is not final" comment
+    
+    * forward declare GraphicsContext in z64game.h instead of including the header file for it
+    
+    * don't comment on where the forward declarations are from
+    
+    reasoning:
+    1) it's easy to go out of sync (like this comment, it was outdated anyway)
+    2) any IDE can easily find the struct anyway
+
+[33mcommit b8aa2a251e38c4ca31d2e0ab5042a8ea84fd4be5[m
+Author: engineer124 <47598039+engineer124@users.noreply.github.com>
+Date:   Tue Aug 15 15:44:20 2023 +1000
+
+    Document z_lib Sfx Functions (#1470)
+    
+    * document lib sfx
+    
+    * rename functions
+
+[33mcommit 18d609c1a3006c242d10b12e6937f467c2a1f1eb[m
+Author: Tharo <17233964+Thar0@users.noreply.github.com>
+Date:   Tue Aug 15 06:21:12 2023 +0100
+
+    Mention why PrimDepth is used in `PreRender_FetchFbufCoverage` (#1520)
+    
+    * Mention why PrimDepth is used in PreRender_FetchFbufCoverage
+    
+    * Clarify that this only affects the memory alpha blender input, not all alpha blender inputs
+    
+    * Try to make the subtle difference between coverage and memory alpha more clear
+
+[33mcommit 6e7a6d41814a1329b43bffc3b95bb75716d9efa6[m
+Author: Dragorn421 <Dragorn421@users.noreply.github.com>
+Date:   Sun Aug 13 21:24:26 2023 +0200
+
+    Split `SaveContext` into sub-structs (#1393)
+    
+    * Split SaveContext struct
+    
+    * run formatter
+    
+    * Remove temporary-until-split stuff in z_sram
+    
+    * .
+    
+    * run formatter
+
+[33mcommit e272186b5f44f097915e135633492f7c28a40e2b[m
+Author: Robin Allen <r@foon.uk>
+Date:   Sun Aug 13 16:56:48 2023 +0100
+
+    hyrulefield_point_name_eng → hyrule_field_point_name_eng (#1521)
+    
+    To match the other asset names.
+
+[33mcommit 52e0b8549d0020895c5c0fe56446bb9c6906ebb1[m
+Author: fig02 <fig02srl@gmail.com>
+Date:   Sun Aug 13 11:32:18 2023 -0400
+
+    document bugs (#1519)
+
+[33mcommit b8c1440d1eb641aca4cf286e7982dbc2305e82b5[m
+Author: Dragorn421 <Dragorn421@users.noreply.github.com>
+Date:   Sun Aug 13 16:35:38 2023 +0200
+
+    Cleanup?: Use gotos in z_play for large else blocks (#1486)
+    
+    * remove else when using `goto Play_Draw_DrawOverlayElements`
+    
+    * Add `goto Play_Draw_skip`, use on prerender save
+    
+    * format
+
+[33mcommit 63606af10dd7fe04e06bbb093d31a97626401028[m
+Author: Derek Hensley <hensley.derek58@gmail.com>
+Date:   Mon Jul 31 19:30:26 2023 -0700
+
+    Mapfile Parser (#1518)
+    
+    * mapfile parser
+    
+    * Fix copy error
+    
+    * PR reveiw
+    
+    * Package versioning
+    
+    * Fix install message
+
+[33mcommit 5fa018106bde15d414047a38ddac162323739419[m
+Author: Dragorn421 <Dragorn421@users.noreply.github.com>
+Date:   
