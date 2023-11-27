@@ -43,15 +43,6 @@ ActorEntry my_dungeon_scene_header00_playerEntryList[] = {
 TransitionActorEntry my_dungeon_scene_header00_transitionActors[] = {
     // Lifting Wooden Door
     {
-        /* Room & Cam Index (Front, Back) */ { 0, 0xFF, 1, 0xFF },
-        /* Actor ID                       */ ACTOR_DOOR_SHUTTER,
-        /* Position                       */ { 473, -120, 302 },
-        /* Rotation Y                     */ DEG_TO_BINANG(0.000),
-        /* Parameters                     */ 0x0000
-    },
-
-    // Lifting Wooden Door
-    {
         /* Room & Cam Index (Front, Back) */ { 1, 0x00, 3, 0x00 },
         /* Actor ID                       */ ACTOR_DOOR_SHUTTER,
         /* Position                       */ { 910, -120, 1012 },
@@ -61,20 +52,29 @@ TransitionActorEntry my_dungeon_scene_header00_transitionActors[] = {
 
     // Lifting Wooden Door
     {
-        /* Room & Cam Index (Front, Back) */ { 1, 0x00, 2, 0x00 },
-        /* Actor ID                       */ ACTOR_DOOR_SHUTTER,
-        /* Position                       */ { 36, -120, 1012 },
-        /* Rotation Y                     */ DEG_TO_BINANG(270.000),
-        /* Parameters                     */ 0x0040
-    },
-
-    // Lifting Wooden Door
-    {
         /* Room & Cam Index (Front, Back) */ { 2, 0xFF, 0, 0xFF },
         /* Actor ID                       */ ACTOR_DOOR_SHUTTER,
         /* Position                       */ { -383, -120, 302 },
         /* Rotation Y                     */ DEG_TO_BINANG(180.000),
         /* Parameters                     */ 0x0000
+    },
+
+    // Lifting Wooden Door
+    {
+        /* Room & Cam Index (Front, Back) */ { 0, 0xFF, 1, 0xFF },
+        /* Actor ID                       */ ACTOR_DOOR_SHUTTER,
+        /* Position                       */ { 473, -120, 302 },
+        /* Rotation Y                     */ DEG_TO_BINANG(0.000),
+        /* Parameters                     */ 0x0000
+    },
+
+    // Lifting Wooden Door
+    {
+        /* Room & Cam Index (Front, Back) */ { 1, 0x00, 2, 0x00 },
+        /* Actor ID                       */ ACTOR_DOOR_SHUTTER,
+        /* Position                       */ { 36, -120, 1012 },
+        /* Rotation Y                     */ DEG_TO_BINANG(270.000),
+        /* Parameters                     */ 0x0040
     },
 };
 

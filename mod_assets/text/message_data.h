@@ -3350,7 +3350,7 @@ DEFINE_MESSAGE(0x00AF, TEXTBOX_TYPE_BLUE, TEXTBOX_POS_BOTTOM,
 UNSKIPPABLE  ITEM_ICON("\x13")  
 QUICKTEXT_ENABLE "You got " COLOR(BLUE) "Roc's Feather" COLOR(DEFAULT) "!" QUICKTEXT_DISABLE "\n"
 "You feel ligher already! Equip\n"
-"it to " COLOR(YELLOW) "[C]" COLOR(DEFAULT) " to jump with a\n"
+"it to " COLOR(YELLOW) "[C]" COLOR(DEFAULT) " plto jump with a\n"
 "gust of wind, even in the air!"
 ,
 "German"
