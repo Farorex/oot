@@ -3347,20 +3347,15 @@ UNSKIPPABLE  ITEM_ICON("\x0D") "En utilisant la magie une \n"
 )
 
 DEFINE_MESSAGE(0x00AF, TEXTBOX_TYPE_BLUE, TEXTBOX_POS_BOTTOM,
-UNSKIPPABLE  ITEM_ICON("\x13")  QUICKTEXT_ENABLE "You got " COLOR(BLUE) "Nayru's Love" COLOR(DEFAULT) "!" QUICKTEXT_DISABLE "\n"
-"Cast this to create a powerful\n"
-"protective barrier. It's defensive \n"
-"magic you can use with " COLOR(YELLOW) "[C]" COLOR(DEFAULT) "."
+UNSKIPPABLE  ITEM_ICON("\x13")  
+QUICKTEXT_ENABLE "You got " COLOR(BLUE) "Roc's Feather" COLOR(DEFAULT) "!" QUICKTEXT_DISABLE "\n"
+"You feel ligher already! Equip\n"
+"it to " COLOR(YELLOW) "[C]" COLOR(DEFAULT) " to jump with a\n"
+"gust of wind, even in the air!"
 ,
-UNSKIPPABLE  ITEM_ICON("\x13")  QUICKTEXT_ENABLE  COLOR(BLUE) "Nayrus Umarmung" COLOR(DEFAULT) "!" QUICKTEXT_DISABLE "\n"
-"Setze diese kraftvolle,\n"
-"magische Schutzaura\n"
-"mit " COLOR(YELLOW) "[C]" COLOR(DEFAULT) " ein."
+"German"
 ,
-UNSKIPPABLE  ITEM_ICON("\x13")  QUICKTEXT_ENABLE "Vous recevez l'" COLOR(BLUE) "Amour de \n"
-"Nayru" COLOR(DEFAULT) "!" QUICKTEXT_DISABLE " Lancez ce sort avec\n"
-COLOR(YELLOW) "[C] " COLOR(DEFAULT) "pour invoquer une \n"
-"puissante barrière protectrice."
+"French"
 )
 
 DEFINE_MESSAGE(0x00B0, TEXTBOX_TYPE_BLACK, TEXTBOX_POS_BOTTOM,
