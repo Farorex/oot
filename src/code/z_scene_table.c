@@ -740,8 +740,11 @@ void Scene_DrawConfigCalmWater(PlayState* play) {
                                 (gameplayFrames * 1) % 128, 32, 32, 1, gameplayFrames % 128, (gameplayFrames * 1) % 128,
                                 32, 32));
 
-    gDPPipeSync(POLY_OPA_DISP++);
-    gDPSetEnvColor(POLY_OPA_DISP++, 128, 128, 128, 128);
+    gSPSegment(POLY_XLU_DISP++, 0x09,
+               Gfx_TwoTexScroll(play->state.gfxCtx, G_TX_RENDERTILE, 127 - (gameplayFrames * 1) % 128,
+                                (gameplayFrames * 1) % 256, 32, 64, 1, 0, 0, 32, 128));
+
+    gSPDisplayList(POLY_OPA_DISP++, sDefaultDisplayList);
 
     gDPPipeSync(POLY_XLU_DISP++);
     gDPSetEnvColor(POLY_XLU_DISP++, 128, 128, 128, 128);

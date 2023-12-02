@@ -123,3 +123,5 @@
 // Added scenes
 /* 0x6D */ DEFINE_SCENE(my_scene, none, SCENE_MY_SCENE, SDC_DEFAULT, 0, 0)
 /* 0x6D */ DEFINE_SCENE(my_dungeon, none, SCENE_MY_DUNGEON, SDC_CALM_WATER, 0, 0)
+/* 0x6D */ DEFINE_SCENE(warped_woods, none, SCENE_WARPED_WOODS, SDC_CALM_WATER, 0, 0)
+

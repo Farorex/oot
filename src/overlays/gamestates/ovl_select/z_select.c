@@ -283,9 +283,11 @@ static SceneSelectEntry sScenes[] = {
     { "124:depth" GFXP_KATAKANA "ﾃｽﾄ", MapSelect_LoadGame, ENTR_DEPTH_TEST_0 },
     // "125: Hyrule Garden Game 2" (Early Hyrule Garden Game)
     { "125:" GFXP_KATAKANA "ﾊｲﾗﾙ" GFXP_HIRAGANA "ﾆﾜ" GFXP_KATAKANA "ｹﾞｰﾑ2", MapSelect_LoadGame, ENTR_HAIRAL_NIWA2_0 },
-    // "126 + 127: TUT
+    // CUSTOM
     { "126: Tutorial", MapSelect_LoadGame, ENTR_MY_SCENE_0},
     { "127: Tutorial Dungeon", MapSelect_LoadGame, ENTR_MY_DUNGEON_0},
+    { "128: Warped Woods", MapSelect_LoadGame, ENTR_WARPEDWOODS_0},
+
     // "title" (Title Screen)
     { "title", (void*)MapSelect_LoadTitle, 0 },
 };
